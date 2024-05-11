@@ -14,7 +14,7 @@ http://localhost:9100
 
 ```
 
-We can execute this sample to test
+We can execute this sample to load the parquet file
 
 ```shell
 import boto3
