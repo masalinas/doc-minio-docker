@@ -1,7 +1,7 @@
 # Description
 Documentation Deploy Minio Docker
 
-## Steps
+## Steps
 
 ```shell
 docker-compose -d up
