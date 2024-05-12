@@ -1,5 +1,5 @@
 # Description
-Documentation Deploy Minio Docker
+Documentation Deploy a Minio Server locally with parquet parser activate from Docker
 
 ## Steps
 
