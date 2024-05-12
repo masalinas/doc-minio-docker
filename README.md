@@ -7,7 +7,7 @@ Documentation Deploy Minio Docker
 docker-compose -d up
 ```
 
-We can access to Minio operator at this url and create a buket called **samples** and upload the file **people.parquet** to test from python
+We can access to Minio operator at this url and create a bucket called **samples** and upload the file **people.parquet** to test from python
 
 ```shell
 http://localhost:9100
