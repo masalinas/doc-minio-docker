@@ -38,14 +38,14 @@ Execute the deployment:
 docker-compose -d up
 ```
 
-We can access to Minio operator at this url and create a bucket called **samples** and upload the file **people.parquet** to test from python
+We can access to Minio operator at this url and create a bucket called **samples** and upload the file **people.parquet** to test from a python client
 
 ```shell
 http://localhost:9100
 
 ```
 
-Execute this python sample to load the parquet file **people.parquet**
+Execute this python client to load the parquet file **people.parquet**
 
 ```shell
 import boto3
