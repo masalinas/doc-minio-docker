@@ -8,8 +8,8 @@ services:
       - "9010:9000"
       - "9100:9090"
     environment:
-      - MINIO_ROOT_USER=admin
-      - MINIO_ROOT_PASSWORD=password
+      - MINIO_ROOT_USER=${MINIO_ROOT_USER}
+      - MINIO_ROOT_PASSWORD=${MINIO_ROOT_PASSWORD}
       - MINIO_CONFIG_ENV_FILE=/etc/config.env
       - MINIO_API_SELECT_PARQUET=on
     volumes:
