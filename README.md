@@ -3,6 +3,12 @@ Documentation to Deploy a Minio Server locally with parquet parser activated fro
 
 ## Steps
 
+Create minio network before deploy
+
+```shell
+docker network create minio-net
+```
+
 Create a deployment file for docker compose like this with the environment variable **MINIO_API_SELECT_PARQUET** set to **on** to manage parquet files in minio server
 
 ```shell
