@@ -41,7 +41,7 @@ networks:
 Execute the deployment:
 
 ```shell
-docker-compose -d up
+docker-compose up -d
 ```
 
 We can access to Minio operator at this url and create a bucket called **samples** and upload the file **people.parquet** to test from a python client
