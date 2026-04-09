@@ -6,7 +6,7 @@ To start minio as docker container depends ig you use Ubuntu 20.04 LTS or Ubuntu
 
 - In Ubuntu 20.04:
 
-Usin the Minio AIStore commercial version you must requets a free license from [minio web portal](https://www.min.io/download) click in Request License Key, and select the free one:
+Usin the Minio AIStore commercial version you must requets a free license from [minio web portal](https://www.min.io/download) click in Request License Key, and select the free one. **This version maintains the visual notification events menu options and bind this ones at bucket level**
 
 ```shell
 $ docker run -d  \
@@ -20,7 +20,7 @@ $ docker run -d  \
   --license /minio.license
 ```
 
-Using the Minio Opensource version:
+Using the Minio Opensource version. **The last Open Source versions don't have visual events configurations nor binding of this ones at bucket., only from minio CLI (mc)**
 
 ```shell
 $ docker run -d \
