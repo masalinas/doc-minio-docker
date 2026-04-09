@@ -2,7 +2,7 @@
 Documentation about Minio Docker Deployment.
 
 ## Deployment
-To start minio as docker container depends ig you use Ubuntu 20.04 LTS or Ubuntu 24.04 LTS, also depends if you want to use the comertial version Minio AIStore using a free licence or the OpenSoure version:
+To start minio as docker container depends if you use Ubuntu 20.04 LTS or Ubuntu 24.04 LTS, also depends if you want to use the comertial version Minio AIStore using a free licence or the OpenSoure version:
 
 - In Ubuntu 20.04:
 
@@ -22,7 +22,7 @@ To start minio as docker container depends ig you use Ubuntu 20.04 LTS or Ubuntu
 
     ![Minio AIStore](./images/minio_comercial.png "Minio AIStore")
 
-    Using the Minio Opensource version. **The last Open Source versions don't have visual events configurations nor binding of this ones at bucket., only from minio CLI (mc)**
+    Using the Minio Opensource version. **The last Open Source versions don't have visual events configurations nor binding of this ones at bucket, only from minio CLI (mc)**
 
     ```shell
     $ docker run -d \
